@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172fc726-5c3c-4f6c-840e-4af0cd1f442c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Body-Language-Decoder-main.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Body-Language-Decoder-main/Body-Language-Decoder-main/Body Language Decoder Tutorial v2.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Body-Language-Decoder-main/Body-Language-Decoder-main/FlaskThing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Body-Language-Decoder-main/Body-Language-Decoder-main/bell-ring-01.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Body-Language-Decoder-main/Body-Language-Decoder-main/face.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Body-Language-Decoder-main/Body-Language-Decoder-main/mixkit-attention-bell-ding-586.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Body-Language-Decoder-main/Body-Language-Decoder-main/pose.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IDK.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Body-Language-Decoder-main/Body-Language-Decoder-main/shape_predictor_68_face_landmarks.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Body Language Decoder Tutorial.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Body Language Decoder Tutorial.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coords.csv" beforeDir="false" afterPath="$PROJECT_DIR$/coords.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Body-Language-Decoder-main/Body-Language-Decoder-main/Body Language Decoder Tutorial v2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Body-Language-Decoder-main/Body-Language-Decoder-main/Body Language Decoder Tutorial v2.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +19,17 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -38,14 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/alex/Documents/GitHub/Body-Language-Decoder/Body-Language-Decoder-main/Body-Language-Decoder-main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alex/Documents/GitHub/Body-Language-Decoder/Body-Language-Decoder-main/Body-Language-Decoder-main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alex\Documents\GitHub\Body-Language-Decoder\Body-Language-Decoder-main\Body-Language-Decoder-main" />
@@ -99,7 +103,11 @@
       <workItem from="1681585704319" duration="3342000" />
       <workItem from="1681589176952" duration="287000" />
       <workItem from="1681589500935" duration="14734000" />
-      <workItem from="1681611248039" duration="5039000" />
+      <workItem from="1681611248039" duration="5103000" />
+      <workItem from="1681623250225" duration="4250000" />
+      <workItem from="1681627560910" duration="698000" />
+      <workItem from="1681628281097" duration="118000" />
+      <workItem from="1681628415491" duration="1194000" />
     </task>
     <servers />
   </component>
@@ -118,6 +126,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Body_Language_Decoder$FlaskThing.coverage" NAME="FlaskThing Coverage Results" MODIFIED="1681613101251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Body-Language-Decoder-main/Body-Language-Decoder-main" />
+    <SUITE FILE_PATH="coverage/Body_Language_Decoder$FlaskThing.coverage" NAME="FlaskThing Coverage Results" MODIFIED="1681629451568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Body-Language-Decoder-main/Body-Language-Decoder-main" />
   </component>
 </project>
